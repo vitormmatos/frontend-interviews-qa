@@ -9,19 +9,19 @@
     - [**Interface Segregation Principle**](#interface-segregation-principle)
     - [**Dependency Inversion Principle**](#dependency-inversion-principle)
 
-## What is Dependency Injection?
+## What is **Dependency Injection**?
 
 Dependency injection is a programming technique that makes a class independent of its dependencies. It achieves that by decoupling the usage of an object from its creation.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#design-principles)**
 
-## What are the 5 SOLID principles?
+## What are the 5 **SOLID principles**?
 
 SOLID is an acronym for the first five object-oriented design (OOD) principles by Robert C. Martin (also known as Uncle Bob).
 
 These principles establish practices that lend to developing software with considerations for maintaining and extending as the project grows. Adopting these practices can also contribute to avoiding code smells, refactoring code, and Agile or Adaptive software development.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#design-principles)**
 
 ## **Single-Responsiblity Principle**
 
@@ -31,7 +31,7 @@ A class should have one and only one reason to change.
 
 Meaning that a class should have only one job.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#design-principles)**
 
 ## **Open-Closed Principle**
 
@@ -41,7 +41,7 @@ Generally, this principle is all about writing your code in such a way so that w
 
 To do this, we write **interfaces** and **abstract classes** in order to dictate the higher-level policy that needs to be implemented, and then we implement that policy using concrete classes.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#design-principles)**
 
 ## **Liskov-Substitution Principle**
 
@@ -55,7 +55,7 @@ In Uncle Bob's "Clean Architecture", he says:
 "To build software systems from interchangeable parts, those parts must adhere to a contract that allows those parts to be substituted one for another."
 ```
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#design-principles)**
 
 ## **Interface Segregation Principle**
 
@@ -65,7 +65,7 @@ Prevent classes from relying on things that they dont need
 
 In order to prevent this, it is needed to really split up the unique functionality into interfaces.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#design-principles)**
 
 ## **Dependency Inversion Principle**
 
@@ -95,4 +95,4 @@ class SendGridEmailService implements IMailService {
 }
 ```
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#design-principles)**

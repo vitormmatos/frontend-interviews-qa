@@ -14,19 +14,19 @@
     - [**Session storage**](#session-storage)
     - [**Cookie**](#cookie)
 
-## What is Git?
+## What is **Git**?
 
 Git is a free and open source distributed **version control** system designed to handle everything from small to very large projects with speed and efficiency.
 
 **[⬆ Back to Top](#web)**
 
-## What is HTTP?
+## What is **HTTP**?
 
 HTTP is a protocol for **fetching resources** such as HTML documents. It is the foundation of any data exchange on the Web and it is a **client-server protocol**, which means requests are initiated by the recipient, usually the Web browser. A complete document is reconstructed from the different sub-documents fetched, for instance, text, layout description, images, videos, scripts, and more.
 
 **[⬆ Back to Top](#web)**
 
-## What is DNS?
+## What is **DNS**?
 
 The Domain Name System (DNS) turns **domain names** into **IP addresses**, which browsers use to load internet pages.
 
@@ -36,25 +36,25 @@ DNS servers make it possible for people to input normal words into their browser
 
 **[⬆ Back to Top](#web)**
 
-## What is JWT?
+## What is **JWT**?
 
 JSON Web Tokens are an **open**, **industry standard method** for representing claims **securely** between **two parties**.
 
 **[⬆ Back to Top](#web)**
 
-## What is CORS?
+## What is **CORS**?
 
 Cross-origin resource sharing (CORS) is a mechanism that allows **restricted** resources on a web page to be requested from another domain **outside** the domain from which the first resource was served.
 
 **[⬆ Back to Top](#web)**
 
-## What is SSL?
+## What is **SSL**?
 
 SSL, or Secure Sockets Layer, is an **encryption**-based Internet **security protocol** with the purpose of ensuring **privacy**, **authentication**, and **data integrity** in Internet communications. SSL is the predecessor to the modern **TLS** encryption used today.
 
 **[⬆ Back to Top](#web)**
 
-## What is FTP?
+## What is **FTP**?
 
 The File Transfer Protocol (FTP) is a standard **communication protocol** used for the **transfer** of **computer files** from a **server** to a **client** on a computer network.
 
@@ -62,7 +62,7 @@ FTP is built on a client–server model architecture using separate control and 
 
 **[⬆ Back to Top](#web)**
 
-## What is REST?
+## What is **REST**?
 
 Representational state transfer (REST) is a software architectural style that describes a uniform interface between decoupled components in the Internet in a **Client-Server architecture**.
 
@@ -77,7 +77,7 @@ Generally it describes a machine to machine interface and more specifically in w
 
 **[⬆ Back to Top](#web)**
 
-## What are the differences between Local Storage, Session Storage and Cookie?
+## What are the differences between **Local Storage**, **Session Storage** and **Cookie**?
 
 ### **Local Storage**
 

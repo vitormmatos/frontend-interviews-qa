@@ -1,6 +1,6 @@
-# Javascript
+# JavaScript
 
-- [Javascript](#javascript)
+- [JavaScript](#JavaScript)
   - [What are Block Statements?](#what-are-block-statements)
   - [What is the Typeof operator?](#what-is-the-typeof-operator)
   - [What are Promises?](#what-are-promises)
@@ -14,25 +14,25 @@
   - [What is the difference in usage between const and Object.freeze?](#what-is-the-difference-in-usage-between-const-and-objectfreeze)
   - [What are Webworkers?](#what-are-webworkers)
 
-## What are Block Statements?
+## What are **Block Statements**?
 
 Block statements are commonly used with control flow statements i.e. while, for, if etc. The block is delimited by a pair of **curly brackets**.
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What is the Typeof operator?
+## What is the **Typeof** operator?
 
 The typeof operator returns a string indicating the type of the unevaluated operand.
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What are Promises?
+## What are **Promises**?
 
 Promises are a way of dealing with **asynchronous** code.
 
 for sake of example, we're just using setTimeout. This could be any asynchronous action as well:
 
-```javascript
+```JavaScript
 function asyncA(callback) {
   setTimeout(callback, 100)
 }
@@ -54,7 +54,7 @@ asyncA(function (resultA) {
 
 Code using promises can make asynchronous code easier to compose, and can also avoid the common issue of **“callback hell”**:
 
-```javascript
+```JavaScript
 function promiseA() {
   return new Promise((resolve, reject) => setTimeout(resolve, 100))
 }
@@ -70,9 +70,9 @@ Promise.all([promiseA(), promiseB(), promiseC()]).then(([a, b, c]) => {
 })
 ```
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What are Arrow Functions? What are their advantages?
+## What are **Arrow Functions**? What are their advantages?
 
 Arrows is a new syntax for functions, which brings several benefits:
 
@@ -84,7 +84,7 @@ Arrows is a new syntax for functions, which brings several benefits:
 
 **ES5** style:
 
-```javascript
+```JavaScript
 el.onclick = function (x, y, z) {
   return this.doSomething()
 }.bind(this)
@@ -92,7 +92,7 @@ el.onclick = function (x, y, z) {
 
 **ES6** style:
 
-```javascript
+```JavaScript
 el.onclick = (x, y, z) => this.doSomething()
 ```
 
@@ -100,7 +100,7 @@ el.onclick = (x, y, z) => this.doSomething()
 
 **ES5** style:
 
-```javascript
+```JavaScript
 var names = users.map(function (u) {
   return u.name
 })
@@ -108,13 +108,13 @@ var names = users.map(function (u) {
 
 **ES6** style:
 
-```javascript
+```JavaScript
 var names = users.map(u => u.name)
 ```
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What is Hoisting in JS?
+## What is **Hoisting** in JS?
 
 Hoisting is JavaScript's default behaviour of moving all declarations to the **top of the current scope** (to the top of the current script or the current function).
 
@@ -124,13 +124,13 @@ Meaning: The block of code is aware of the variable, but it cannot be used until
 
 Using a **let** variable before it is declared will result in a **ReferenceError**.
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What is the usage of the Array method find?
+## What is the usage of the Array method **find**?
 
 The find() method returns the first element in the provided array that satisfies the provided testing function. If no values satisfy the testing function, undefined is returned.
 
-```javascript
+```JavaScript
 const array1 = [5, 12, 8, 130, 44]
 
 const found = array1.find(element => element > 10)
@@ -144,13 +144,13 @@ console.log(found)
 - If you need to find if a value exists in an array, use Array.prototype.includes(). Again, it checks each element for equality with the value instead of using a testing function.
 - If you need to find if any element satisfies the provided testing function, use Array.prototype.some().
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What is the usage of the Array method map?
+## What is the usage of the Array method **map**?
 
 The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
 
-```javascript
+```JavaScript
 const array1 = [1, 4, 9, 16]
 
 // pass a function to map
@@ -160,13 +160,13 @@ console.log(map1)
 // expected output: Array [2, 8, 18, 32]
 ```
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What is the usage of the Array method filter?
+## What is the usage of the Array method **filter**?
 
 The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
 
-```javascript
+```JavaScript
 const array = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 const isPrime = num => {
@@ -181,32 +181,32 @@ const isPrime = num => {
 console.log(array.filter(isPrime)) // [2, 3, 5, 7, 11, 13]
 ```
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What is a Closure?
+## What is a **Closure**?
 
 A closure is the combination of a function bundled together with references to its surrounding state. A closure gives you access to an **outer function’s scope** from an **inner function**.
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What is a Higher Order Function?
+## What is a **Higher Order Function**?
 
 A higher order function is a function that takes a **function as an argument**, or **returns a function**
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What is the difference in usage between const and Object.freeze?
+## What is the difference in usage between **const** and **Object.freeze**?
 
 const applies to bindings ("variables"). It creates an immutable binding, i.e. you cannot assign a new value to the binding.
 
 Object.freeze works on values, and more specifically, object values. It makes an object immutable, i.e. you cannot change its properties.
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**
 
-## What are Webworkers?
+## What are **Webworkers**?
 
 Web Workers are a simple means for web content to run scripts in background threads. The worker thread can perform tasks without interfering with the user interface.
 
 Once created, a worker can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa).
 
-**[⬆ Back to Top](##javascript)**
+**[⬆ Back to Top](##JavaScript)**

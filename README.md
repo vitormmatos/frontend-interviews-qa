@@ -5,6 +5,7 @@
 - [Design Principles](DESIGN-PRINCIPLES.md)
 - [HTML](HTML.md)
 - [CSS](CSS.md)
-- [Javascript](JS.md)
+- [JavaScript](JS.md)
+- [TypeScript](TS.md)
 - [Testing](TESTING.md)
 - [Angular](ANGULAR.md)

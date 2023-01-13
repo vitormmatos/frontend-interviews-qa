@@ -2,7 +2,6 @@
 
 - [Angular](#angular)
   - [What is Angular?](#what-is-angular)
-  - [What is Typescript?](#what-is-typescript)
   - [What are Single Page Applications?](#what-are-single-page-applications)
   - [What are Directives?](#what-are-directives)
   - [What are Components?](#what-are-components)
@@ -12,7 +11,6 @@
   - [What is a Template?](#what-is-a-template)
   - [What is a Module?](#what-is-a-module)
   - [What are Lifecycle Hooks?](#what-are-lifecycle-hooks)
-  - [What is a Constructor?](#what-is-a-constructor)
   - [What is ngOnInit() in Angular?](#what-is-ngoninit-in-angular)
   - [When is ngOnInit() Executed?](#when-is-ngoninit-executed)
   - [What is a Data Binding?](#what-is-a-data-binding)
@@ -29,15 +27,7 @@
 
 Angular is an application design framework and development platform for creating efficient and sophisticated single-page apps.
 
-**[⬆ Back to Top](#table-of-contents)**
-
-## What is Typescript?
-
-TypeScript is a strongly typed programming language created by Microsoft that builds on JavaScript.
-It adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript.
-Angular built entirely in TypeScript and used as a primary language.
-
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What are Single Page Applications?
 
@@ -68,13 +58,13 @@ Now this directive extends HTML element behavior with a yellow background as bel
 
 Now this directive extends HTML element behavior with a yellow background as below
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What are Components?
 
 Components are the most basic UI building block of an Angular app which formed a tree of Angular components. These components are subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What are Services in Angular?
 
@@ -82,7 +72,7 @@ Angular Services perform tasks that are used by multiple components. These tasks
 
 They perform all the operational tasks for the components and avoid rewriting of code. A service can be written once and injected into all the components that use that service.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What are the differences between Component and Directive?
 
@@ -97,7 +87,7 @@ Decorators are a design pattern or functions that define how Angular features wo
 - Method Decorators
 - Parameter Decorators
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What is a Template?
 
@@ -111,7 +101,7 @@ They can contain components, service providers, and other code files whose scope
 
 Every Angular application has at least one NgModule class, the root module, which is conventionally named AppModule and resides in a file named _app.module.ts_.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What are Lifecycle Hooks?
 
@@ -132,25 +122,7 @@ The description of each lifecycle method is as below:
 - ngAfterViewChecked: This is called in response after Angular checks the component's views and child views.
 - ngOnDestroy: This is the cleanup phase just before Angular destroys the directive/component.
 
-**[⬆ Back to Top](#table-of-contents)**
-
-## What is a Constructor?
-
-A constructor is a special method which will be called whenever we create new objects. And generally used of initializing the class members. It is a feature of the class(typescript) itself, an object-oriented design concept not Angular.
-
-A constructor example in Angular:
-
-```typescript
-class Square {
-  constructor(private height: number, private width: number) {}
-
-  calculateArea = () => this.height * this.width
-}
-```
-
-In the example from above, the constructor will be automatically invoked by JavaScript engine when we create a new object.
-
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What is ngOnInit() in Angular?
 
@@ -163,14 +135,14 @@ Every component we create has a life cycle managed by Angular.
 
 As part of the life cycle, angular creates it, renders it and checks when its bounded data properties changes, destroys the component before removing it from the DOM.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## When is ngOnInit() Executed?
 
 - ngOnInit will be executed, When Angular done with the creating of component DOM.
 - ngOnInit will be called after the constructor execution and after first ngOnChanges
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What is a Data Binding?
 
@@ -205,7 +177,7 @@ There are **four** forms of data binding(divided as 3 categories) which differ i
 <input type="email" [(ngModel)]="user.email" />
 ```
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What are Pipes?
 
@@ -215,7 +187,7 @@ Use pipes to transform strings, currency amounts, dates, and other data for disp
 <p>The hero's birthday is {{ birthday | date }}</p>
 ```
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What is the difference between AOT and JIT?
 
@@ -223,7 +195,7 @@ Ahead of Time (AOT) compilation converts your code during the build time before 
 
 The Just-in-Time (JIT) compilation process is a way of compiling computer code to machine code during execution or run time. It is also known as dynamic compilation. JIT compilation is the default when you run the ng build or ng serve CLI commands.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What are AOT advantages?
 
@@ -233,19 +205,19 @@ The Just-in-Time (JIT) compilation process is a way of compiling computer code t
 - Quick detection of template errors
 - Better security
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What is Angular TestBed?
 
 Configures and initializes environment for unit testing and provides methods for creating components and services in unit tests.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What is RxJS?
 
 RxJS is a library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What are the differences between Reactive Forms vs Template Forms?
 
@@ -266,7 +238,7 @@ Reactive Form Approach:
 - Reactive forms eliminate the anti-pattern of updating the data model via two-way data binding.
 - Typically, Reactive form control creation is synchronous and can be unit tested with synchronous programming techniques.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
 
 ## What is Eager and Lazy loading?
 
@@ -278,4 +250,4 @@ Lazy loading dynamically loads the feature modules when there's a demand. This m
 
 Sanitization is the inspection of an untrusted value, turning it into a value that's safe to insert into the DOM. Yes, Angular suppports sanitization. It sanitizes untrusted values for HTML, styles, and URLs but sanitizing resource URLs isn't possible because they contain arbitrary code.
 
-**[⬆ Back to Top](#table-of-contents)**
+**[⬆ Back to Top](#angular)**
