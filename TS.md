@@ -1,5 +1,8 @@
 # TypeScript
 
+<link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
+<img src="./ASSETS/TYPESCRIPT.svg" alt="Typescript Logo" class="logo"></img>
+
 - [TypesScript](#typescript)
     - [What is Typescript?](#what-is-typescript)
     - [What is the any type?](#what-is-the-any-type)

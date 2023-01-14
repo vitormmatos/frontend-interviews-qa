@@ -1,5 +1,8 @@
 # JavaScript
 
+<link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
+<img src="./ASSETS/JAVASCRIPT.svg" alt="Javascript Logo" class="logo"></img>
+
 - [JavaScript](#JavaScript)
   - [What are Block Statements?](#what-are-block-statements)
   - [What is the Typeof operator?](#what-is-the-typeof-operator)

@@ -1,5 +1,8 @@
 # SCRUM
 
+<link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
+<img src="./ASSETS/SCRUM.svg" alt="Scrum Logo" class="logo"></img>
+
 - [SCRUM](#scrum)
   - [What is Scrum?](#what-is-scrum)
   - [What is Daily Stand-Up?](#what-is-daily-stand-up)

@@ -1,5 +1,8 @@
 # WEB
 
+<link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
+<img src="./ASSETS/WEB.svg" alt="Web Logo" class="logo"></img>
+
 - [WEB](#web)
   - [What is Git?](#what-is-git)
   - [What is HTTP?](#what-is-http)

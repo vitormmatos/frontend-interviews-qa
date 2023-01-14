@@ -1,5 +1,8 @@
 # Angular
 
+<link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
+<img src="./ASSETS/ANGULAR.svg" alt="Angular Logo" class="logo"></img>
+
 - [Angular](#angular)
   - [What is Angular?](#what-is-angular)
   - [What are Single Page Applications?](#what-are-single-page-applications)

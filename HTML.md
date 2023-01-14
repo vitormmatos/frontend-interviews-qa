@@ -1,5 +1,8 @@
 # HTML
 
+<link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
+<img src="./ASSETS/HTML.svg" alt="HTML Logo" class="logo"></img>
+
 - [HTML](#html)
   - [What is the \<meta\> element?](#what-is-the-meta-element)
   - [What is the use of \<header\>?](#what-is-the-use-of-header)

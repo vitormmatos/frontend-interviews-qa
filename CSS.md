@@ -1,5 +1,8 @@
 # CSS
 
+<link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
+<img src="./ASSETS/CSS.svg" alt="CSS Logo" class="logo"></img>
+
 - [CSS](#css)
   - [What is box model?](#what-is-box-model)
   - [What are CSS selectors?](#what-are-css-selectors)
