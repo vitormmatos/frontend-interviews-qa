@@ -3,12 +3,11 @@
 <link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
 <img src="./ASSETS/SCRUM.svg" alt="Scrum Logo" class="logo"></img>
 
-- [SCRUM](#scrum)
-  - [What is Scrum?](#what-is-scrum)
-  - [What is Daily Stand-Up?](#what-is-daily-stand-up)
-  - [What is Scrum ban?](#what-is-scrum-ban)
-  - [What is the use of Burn-up and Burn-down charts?](#what-is-the-use-of-burn-up-and-burn-down-charts)
-  - [What is a Story Point in Scrum?](#what-is-a-story-point-in-scrum)
+- [What is Scrum?](#what-is-scrum)
+- [What is Daily Stand-Up?](#what-is-daily-stand-up)
+- [What is Scrum ban?](#what-is-scrum-ban)
+- [What is the use of Burn-up and Burn-down charts?](#what-is-the-use-of-burn-up-and-burn-down-charts)
+- [What is a Story Point in Scrum?](#what-is-a-story-point-in-scrum)
 
 # What is **Scru**m?
 

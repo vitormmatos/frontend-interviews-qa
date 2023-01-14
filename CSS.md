@@ -3,12 +3,11 @@
 <link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
 <img src="./ASSETS/CSS.svg" alt="CSS Logo" class="logo"></img>
 
-- [CSS](#css)
-  - [What is box model?](#what-is-box-model)
-  - [What are CSS selectors?](#what-are-css-selectors)
-  - [What is a Mixin?](#what-is-a-mixin)
-  - [What is a Preprocessor?](#what-is-a-preprocessor)
-  - [What is the difference between Grid and Flexbox?](#what-is-the-difference-between-grid-and-flexbox)
+- [What is box model?](#what-is-box-model)
+- [What are CSS selectors?](#what-are-css-selectors)
+- [What is a Mixin?](#what-is-a-mixin)
+- [What is a Preprocessor?](#what-is-a-preprocessor)
+- [What is the difference between Grid and Flexbox?](#what-is-the-difference-between-grid-and-flexbox)
 
 ## What is **box model**?
 

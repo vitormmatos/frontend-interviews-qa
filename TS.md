@@ -3,16 +3,15 @@
 <link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
 <img src="./ASSETS/TYPESCRIPT.svg" alt="Typescript Logo" class="logo"></img>
 
-- [TypesScript](#typescript)
-    - [What is Typescript?](#what-is-typescript)
-    - [What is the any type?](#what-is-the-any-type)
-    - [What is the unknown type?](#what-is-the-unknown-type)
-    - [What is the void type?](#what-is-the-void-type)
-    - [What are the null and undefined types?](#what-are-the-null-and-undefined-types)
-    - [What is a non-null assertion operator?](#what-is-a-non-null-assertion-operator)
-    - [What is a constructor?](#what-is-a-constructor)
-    - [What is optional chaining?](#what-is-optional-chaining)
-    - [What is a interface in Typescript?]()
+  - [What is Typescript?](#what-is-typescript)
+  - [What is the any type?](#what-is-the-any-type)
+  - [What is the unknown type?](#what-is-the-unknown-type)
+  - [What is the void type?](#what-is-the-void-type)
+  - [What are the null and undefined types?](#what-are-the-null-and-undefined-types)
+  - [What is a non-null assertion operator?](#what-is-a-non-null-assertion-operator)
+  - [What is a constructor?](#what-is-a-constructor)
+  - [What is optional chaining?](#what-is-optional-chaining)
+  - [What is a interface in Typescript?](#what-is-a-interface-in-typescript)
 
 
 ## What is **Typescript**?

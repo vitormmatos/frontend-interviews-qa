@@ -3,15 +3,14 @@
 <link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
 <img src="./ASSETS/HTML.svg" alt="HTML Logo" class="logo"></img>
 
-- [HTML](#html)
-  - [What is the \<meta\> element?](#what-is-the-meta-element)
-  - [What is the use of \<header\>?](#what-is-the-use-of-header)
-  - [What is the use of \<article\>?](#what-is-the-use-of-article)
-  - [What is the use of \<section\>?](#what-is-the-use-of-section)
-  - [What is the use of \<footer\>?](#what-is-the-use-of-footer)
-  - [What is the difference between \<div\> and \<span\>?](#what-is-the-difference-between-div-and-span)
-  - [What is the alt attribute? What is it used for?](#what-is-the-alt-attribute-what-is-it-used-for)
-  - [What is the DOM?](#what-is-the-dom)
+- [What is the \<meta\> element?](#what-is-the-meta-element)
+- [What is the use of \<header\>?](#what-is-the-use-of-header)
+- [What is the use of \<article\>?](#what-is-the-use-of-article)
+- [What is the use of \<section\>?](#what-is-the-use-of-section)
+- [What is the use of \<footer\>?](#what-is-the-use-of-footer)
+- [What is the difference between \<div\> and \<span\>?](#what-is-the-difference-between-div-and-span)
+- [What is the alt attribute? What is it used for?](#what-is-the-alt-attribute-what-is-it-used-for)
+- [What is the DOM?](#what-is-the-dom)
 
 ## What is the **\<meta\>** element?
 

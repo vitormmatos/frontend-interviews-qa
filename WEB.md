@@ -3,19 +3,18 @@
 <link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
 <img src="./ASSETS/WEB.svg" alt="Web Logo" class="logo"></img>
 
-- [WEB](#web)
-  - [What is Git?](#what-is-git)
-  - [What is HTTP?](#what-is-http)
-  - [What is DNS?](#what-is-dns)
-  - [What is JWT?](#what-is-jwt)
-  - [What is CORS?](#what-is-cors)
-  - [What is SSL?](#what-is-ssl)
-  - [What is FTP?](#what-is-ftp)
-  - [What is REST?](#what-is-rest)
-  - [What are the differences between Local Storage, Session Storage and Cookie?](#what-are-the-differences-between-local-storage-session-storage-and-cookie)
-    - [**Local Storage**](#local-storage)
-    - [**Session storage**](#session-storage)
-    - [**Cookie**](#cookie)
+- [What is Git?](#what-is-git)
+- [What is HTTP?](#what-is-http)
+- [What is DNS?](#what-is-dns)
+- [What is JWT?](#what-is-jwt)
+- [What is CORS?](#what-is-cors)
+- [What is SSL?](#what-is-ssl)
+- [What is FTP?](#what-is-ftp)
+- [What is REST?](#what-is-rest)
+- [What are the differences between Local Storage, Session Storage and Cookie?](#what-are-the-differences-between-local-storage-session-storage-and-cookie)
+  - [Local Storage](#local-storage)
+  - [Session storage](#session-storage)
+  - [Cookie](#cookie)
 
 ## What is **Git**?
 

@@ -3,14 +3,13 @@
 <link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
 <img src="./ASSETS/CLEAN-ARCHITECTURE.png" alt="Clean Archiytecture Diagram" class="logo"></img>
 
-- [Design Principles](#design-principles)
-  - [What is Dependency Injection?](#what-is-dependency-injection)
-  - [What are the 5 SOLID principles?](#what-are-the-5-solid-principles)
-    - [**Single-Responsiblity Principle**](#single-responsiblity-principle)
-    - [**Open-Closed Principle**](#open-closed-principle)
-    - [**Liskov-Substitution Principle**](#liskov-substitution-principle)
-    - [**Interface Segregation Principle**](#interface-segregation-principle)
-    - [**Dependency Inversion Principle**](#dependency-inversion-principle)
+- [What is Dependency Injection?](#what-is-dependency-injection)
+- [What are the 5 SOLID principles?](#what-are-the-5-solid-principles)
+  - [**Single-Responsiblity Principle**](#single-responsiblity-principle)
+  - [**Open-Closed Principle**](#open-closed-principle)
+  - [**Liskov-Substitution Principle**](#liskov-substitution-principle)
+  - [**Interface Segregation Principle**](#interface-segregation-principle)
+  - [**Dependency Inversion Principle**](#dependency-inversion-principle)
 
 ## What is **Dependency Injection**?
 

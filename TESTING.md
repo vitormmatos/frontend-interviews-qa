@@ -3,10 +3,9 @@
 <link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
 <img src="./ASSETS/UNIT-TESTING.svg" alt="Typescript Logo" class="logo"></img>
 
-- [Testing](#testing)
-  - [What is a Unit Test?](#what-is-a-unit-test)
-  - [What is a Integration Test?](#what-is-a-integration-test)
-  - [What is a end-to-end test?](#what-is-a-end-to-end-test)
+- [What is a Unit Test?](#what-is-a-unit-test)
+- [What is a Integration Test?](#what-is-a-integration-test)
+- [What is a end-to-end test?](#what-is-a-end-to-end-test)
 
 ## What is a **Unit** Test
 

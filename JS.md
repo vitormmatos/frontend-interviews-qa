@@ -3,19 +3,18 @@
 <link href="./ASSETS/STYLES.css" rel="stylesheet"></link>
 <img src="./ASSETS/JAVASCRIPT.svg" alt="Javascript Logo" class="logo"></img>
 
-- [JavaScript](#JavaScript)
-  - [What are Block Statements?](#what-are-block-statements)
-  - [What is the Typeof operator?](#what-is-the-typeof-operator)
-  - [What are Promises?](#what-are-promises)
-  - [What are Arrow Functions? What are their advantages?](#what-are-arrow-functions-what-are-their-advantages)
-  - [What is Hoisting in JS?](#what-is-hoisting-in-js)
-  - [What is the usage of the Array method find?](#what-is-the-usage-of-the-array-method-find)
-  - [What is the usage of the Array method map?](#what-is-the-usage-of-the-array-method-map)
-  - [What is the usage of the Array method filter?](#what-is-the-usage-of-the-array-method-filter)
-  - [What is a Closure?](#what-is-a-closure)
-  - [What is a Higher Order Function?](#what-is-a-higher-order-function)
-  - [What is the difference in usage between const and Object.freeze?](#what-is-the-difference-in-usage-between-const-and-objectfreeze)
-  - [What are Webworkers?](#what-are-webworkers)
+- [What are Block Statements?](#what-are-block-statements)
+- [What is the Typeof operator?](#what-is-the-typeof-operator)
+- [What are Promises?](#what-are-promises)
+- [What are Arrow Functions? What are their advantages?](#what-are-arrow-functions-what-are-their-advantages)
+- [What is Hoisting in JS?](#what-is-hoisting-in-js)
+- [What is the usage of the Array method find?](#what-is-the-usage-of-the-array-method-find)
+- [What is the usage of the Array method map?](#what-is-the-usage-of-the-array-method-map)
+- [What is the usage of the Array method filter?](#what-is-the-usage-of-the-array-method-filter)
+- [What is a Closure?](#what-is-a-closure)
+- [What is a Higher Order Function?](#what-is-a-higher-order-function)
+- [What is the difference in usage between const and Object.freeze?](#what-is-the-difference-in-usage-between-const-and-objectfreeze)
+- [What are Webworkers?](#what-are-webworkers)
 
 ## What are **Block Statements**?
 
