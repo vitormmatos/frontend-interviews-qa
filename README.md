@@ -7,6 +7,7 @@ Prep interview questions for the role of frontend software engineer.
 Those are divided by the following topics:
 
 - [Scrum](SCRUM.md)
+- [Git](GIT.md)
 - [Web](WEB.md)
 - [Design Principles](DESIGN-PRINCIPLES.md)
 - [HTML](HTML.md)
