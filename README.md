@@ -10,6 +10,7 @@ Those are divided by the following topics:
 - [Git](GIT.md)
 - [Web](WEB.md)
 - [Design Principles](DESIGN-PRINCIPLES.md)
+- [Docker](DOCKER.md)
 - [HTML](HTML.md)
 - [CSS](CSS.md)
 - [JavaScript](JS.md)
